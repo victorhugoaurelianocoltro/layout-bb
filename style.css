@@ -19,20 +19,35 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    padding: 80px;
 }
 
 header{
     height: 200px;
     background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 main{
     flex-grow: 1;
-    background-color: blanchedalmond;
+    background-color: plum;
 }
 
 footer{
     height: 100px;
-    background-color: blue;
+    background-color: lightgreen;
 }
 
+.logo{
+    height: 80px;
+    width: 80px;
+    background-color: white;
+}
+
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 32px;
+}
