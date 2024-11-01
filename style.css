@@ -24,20 +24,9 @@ body{
 
 header{
     height: 200px;
-    background-color: aqua;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-main{
-    flex-grow: 1;
-    background-color: plum;
-}
-
-footer{
-    height: 100px;
-    background-color: lightgreen;
 }
 
 .logo{
@@ -51,3 +40,67 @@ footer{
     gap: 32px;
     font-size: 32px;
 }
+
+main{
+    flex-grow: 1;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+}
+
+.destaque{
+    width: 50%;
+    background-color: lightgrey;
+    background-image: url(./pipa/53048913312_3e35f7d565_z.jpg);
+}
+
+footer{
+    height: 100px;
+}
+
+.conteudo h1{
+    font-size: 96px;
+}
+
+.conteudo p{
+    font-size: 40px;
+    width: 80%;
+}
+
+.conteudo button{
+    height: 80px;
+    width: 300px;;
+    color: black;
+    font-size: 32px;
+}
+
+.conteudo .social{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.conteudo .social div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.destaque{
+    width: 50%;
+    background-color: lightgray;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: lightgray;
+}
+
+
+
